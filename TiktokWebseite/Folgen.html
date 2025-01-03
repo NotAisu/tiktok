@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="css/Folgen.css">
+    <meta charset="UTF-8">
+    <title>Folgen</title>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a href="index.html">Startseite</a>
+        <a href="History.html">Historie</a>
+        <a href="Inhalte.html">Inhalte</a>
+        <a href="Kommerzielles.html">Kommerzielles</a>
+        <a href="Folgen.html">Folgen</a>
+        <a href="Funktion.html">Funktionen</a>
+    </div>
+</header>
+
+<div class="hero-header">
+</div>
+
+<div class="w3-container">
+    <h1>Die Folgen TikToks.</h1>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+    <img class="mySlides" src="img/Tiktok Mann Schwarz.png" alt="bild" style="width:100%">
+    <img class="mySlides" src="img/Mann verwirrt.png" alt="bild" style="width:100%">
+    <img class="mySlides" src="img/TikTok Challenges.png" alt="bild" style="width:100%">
+    <img class="mySlides" src="img/Frau TikTok.png" alt="bild" style="width:100%">
+    <img class="mySlides" src="img/TikTok Riesenrad.jpg" alt="bild" style="width:100%">
+    <img class="mySlides" src="img/TikTok Sucht.png" alt="bild" style="width:100%">
+</div>
+
+<div class="w3-center">
+    <div class="w3-section">
+        <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+        <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    </div>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-red", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " w3-red";
+    }
+</script>
+
+<p>
+    Normalerweise geben soziale Plattformen dem Nutzer zu Beginn ein Gefühl von Kontrolle. Damit ist gemeint, dass man selbst entscheiden kann, was man auf der Plattform tut und welchen Content man sich anschaut. Beim Beispiel von Instagram liegt der Schwerpunkt auf einer Plattform für die gemeinsame Nutzung von Fotos und Videos. Man erhält sofort einen Verlauf mit Bildern und Videos von Personen, denen man folgt. Der Teil der App, in dem man unendlich durch die empfohlenen Bilder scrollen kann, nimmt eine untergeordnete Rolle zu den Bildern und Videos von Personen ein, denen man folgt und von denen man auf dem Laufenden gehalten werden möchte. Das Gleiche gilt historisch für YouTube und Facebook sowie für andere ältere soziale Medien. Auf diesen drei Plattformen liegt der Fokus also auf den Seiten oder Profilen von Menschen und Themen, die man selbst gezielt ausgewählt hat und man auch weiterhin aktiv verfolgen möchte.
+    TikTok wirft das alles hingegen über Bord und versorgt einen von Sekunde 1 mit Content Vorschlägen anderer Nutzer. <br>
+    Sobald man die Plattform betritt, wird man mit einem unendlichen Angebot von 15-60  Sekunden-Videos konfrontiert, die überwiegend von jungen Benutzern produziert wurde, welche man außerhalb von TikTok mit hoher Wahrscheinlichkeit so noch nicht wahrgenommen hat. Dies macht die Nutzung der Plattform von Beginn an zu einem interessanten und in den Bann ziehenden Erlebnis.
+    Auch wenn es vielen Nutzern noch nicht bewusst ist, kann die Nutzung von TikTok unter Umständen abhängig machen. <br>
+    Eine Sucht kann man unter anderem daran erkennen, dass es einer Person sehr schwer fällt, mit dem Konsum aufzuhören, dies kann man sogar mit einem Gefühl der "Machtlosigkeit" vergleichen. Oftmals muss man auch immer mehr konsumieren, um den gleichen positiven Effekt zu erzielen.
+    Der Content auf TikTok bietet Nutzern viele neue aufregende Reize und Informationen. Diese Reize können im Gehirn eine neurologische Reaktion hervorrufen, die auch in anderen Süchten zu beobachten ist. <br>
+    TikTok stellt dem Gehirn durch seinen Content eine Vielzahl an Informationen zur Verfügung. Die Inhalte sind vor allem eines: kurz, neu, aufregend, und auf die Nutzer abgestimmt. Genau diese Inhalte registriert unser Gehirn als sogenannte Belohnungen, die im mittleren Gehirn mit einer Dopaminreaktion verknüpft werden. Man spricht hier von dem "Belohnungssystem" im Gehirn, in dem Dopamin als "Glücksbotenstoff" eine große Rolle spielt. <br>
+    Die Frage ist nun: Welche Art von Inhalten können also süchtig machen? <br>
+    Die Antwort ist: sogenannter Sticky Content. Das heißt, Inhalte, die Informationen enthalten und insbesondere kurz und fesselnd sind. <br>
+    Ideen werden durch Sticky Content besser erinnert bzw. lösen eher Reaktionen aus, sodass Nutzer ihren Inhalt leicht und sofort begreifen. Dazu bedienen sich Content Creators 5 simplen Mechanismen, welche dafür sorgen, dass ihre Beiträge viel geklickt werden. <br>
+    Simpel (sehr kurz und einfach zu verstehen) <br>
+    Unerwartet (Clickbait & Wissenslücken → nutzen die Erwartung der Nutzer etwas Neues zu entdecken oder Wissenslücken zu schließen) <br>
+    Konkret (relevante/aktuelle Themen → Drama/ Covid-19 etc.) <br>
+    Emotional (Spaß- oder Furcht gesteuerte Inhalte, die durch Musik untermauert werden und so Emotionen in den Nutzern auslösen) <br>
+    Story-telling (der Videoinhalt stellt eine Story dar, um die Aufmerksamkeit zu binden) <br>
+    Praktischerweise werden die Informationen von TikTok in einer 15-Sekunden-Form dargestellt. Dies bedeutet, dass die Nutzer zwar auf sich maßgeschneiderte und anregende Informationen erhalten, aber aussagekräftige Inhalte in so kurzer Zeit kaum oder gar nicht angemessen angezeigt werden können.
+    Twitter wurde aus einem sehr ähnlichen Grund auf seine Zeichenbeschränkung hin überprüft. Es ist einfach schwierig, Ansichten, Informationen oder Geschichten, mit solch begrenzten und distanzierten Möglichkeiten angemessen zu vermitteln.
+    Dies macht die Plattform anfälliger für die Arten von erwarteten Reizen, die bei Suchterkrankungen auftreten. TikTok als Plattform erfüllt einige dieser Anforderungen. Die kurzen Videos liefern unserem Gehirn vermeintlich wichtige Informationen, die das Belohnungssystem aktivieren. Dieser Prozess wird ständig verstärkt, indem wir ständig besser auf unsere Vorlieben zurechtgeschnittene Videos zur Verfügung gestellt bekommen und letztendlich noch mehr Zeit auf der Plattform verbringen. <br>
+    Eines der wirksamsten Werkzeuge in der Trickkiste der TikTok Entwickler sind "Tiny Habits". Sie sind es, welche unsere zu anfangs noch zielgerichteten Wisch-Gewohnheiten zu einer immer stärker und unbewusster werdenden Kettenreaktion machen. Dieser Effekt führt beispielsweise dazu, dass wir bei den täglich unzähligen Griffen zum Smartphone fast schon geistesabwesend mit den Fingern den Code eintippen zweimal nach links wischen und einmal klicken, um im nächsten Moment zu realisieren, dass man Tiktok geöffnet hat, obwohl man nur etwas googlen wollte. <br>
+    Tiny Habits folgen dem Prinzip von "Einfachheit verändert Verhalten". Mit der Zeit automatisiertes Verhalten wird zu einem reflexartigen Wischen von Content und löst schon mit dem ersten Wisch eine Kettenreaktion aus, welche keiner Denkleistung bedarf. So werden aus Entscheidungsprozessen feste und unbewusste Gewohnheiten. Konkret heißt das, dass man sich durch die winzige Gewohnheit des kurzen Nach-Oben-Wischens plötzlich fragt, wie man bei den Videos gelandet ist, die man gerade anguckt, und gar nicht gemerkt hat, dass schon zwei Stunden vergangen sind. <br>
+</p>
+
+<footer>
+        Quellen:<br>
+        https://chsprospector.com/wp-content/uploads/2021/03/tiktok.png <br>
+        https://www.schau-hin.info/grundlagen/tiktok-das-steckt-hinter-der-trend-app <br>
+        https://krisenchat.de/oase/suechte/Tiktok-Sucht <br>
+        https://gamequitters.com/wp-content/uploads/tiktok-addict-1024x681.png <br>
+        https://campaignme.com/wp-content/uploads/2021/11/tiktok.jpg <br>
+        https://www.pluggedin.com/wp-content/uploads/2022/04/blog-top-04-04-1024x587.jpg <br>
+        https://cdn.discordapp.com/attachments/1029359286712799363/1082407329015803975/191017-parents-tiktok-cs-1051a.png <br>
+        https://cdn.discordapp.com/attachments/1029359286712799363/1082406814454386778/tiktok-sucht.png <br>
+</footer>
+</body>
+</html>
